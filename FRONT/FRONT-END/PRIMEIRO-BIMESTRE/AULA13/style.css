@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 80px;
+}
+
+
+/*.main-button{
+
+    color: white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #5ac4e4;
+    transition-duration: 1s;
+    transform-origin: left bottom 60px;
+    /*transition-timing-function: ease-in;
+    /*transition-timing-function: ease-in-out;
+
+    /*transition-property: background, padding;*/
+}
+
+
+/*.main-button:hover{
+
+    background-color: tomato;
+    transform: scale(1.5)  rotate(360deg);
+    
+
+}
+
+
+@keyframes float {
+
+    0%{
+        
+        transform: translate(-100px)
+    }
+
+    20% {
+        
+        transform: translate(0, 100px)
+    }
+    
+    40%{
+        
+        transform: translate(100px)
+    }
+
+    60%{
+        transform: translate(0, -100px)
+
+    }
+
+    100%{
+        opacity: .0;
+        transform: translate(-100px)
+
+    }
+
+}
+
+/*.ghost{
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    margin-bottom: 32px;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}*/
+
+
+
+
+@keyframes ryu {
+
+    0%{
+        transform: translate(100px)
+    }
+
+    100% {
+        transform: translate(-100px)
+    }
+    
+}
+
+
+
+
+.hadouken{
+
+    
+    
+    margin-bottom: 80px;
+    animation-name: ryu;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    
+}

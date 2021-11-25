@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.square {
+
+width:  200px;
+height:  200px;
+background-color: salmon;
+margin-bottom: 12px;
+
+
+
+}
+.first-square{
+
+
+    background-color: purple;
+
+    
+
+}
+
+.second-square {
+
+background-color: green;
+position: absolute;
+top:50%;
+left: 50%;
+
+
+
+
+
+}
+
+.third-square{
+
+background-color: red;
+position: relative;
+left: ;
+
+
+
+}
+
+
+
+
+
+

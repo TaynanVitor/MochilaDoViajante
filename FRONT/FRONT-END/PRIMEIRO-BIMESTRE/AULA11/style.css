@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+
+legend{
+    text-align: center;
+
+}
+
+fieldset{
+    margin: 10px;
+    padding: 5px;
+}
