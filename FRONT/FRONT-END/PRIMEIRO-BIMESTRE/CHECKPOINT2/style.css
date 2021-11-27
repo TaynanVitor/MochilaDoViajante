@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+
+    background-image: url("https://criticalhits.com.br/wp-content/uploads/2021/11/lol-arcane-a-910x683.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns:  1fr 400px ;
+    grid-template-areas:
+    'main-header main-header'
+    'main-content main-aside'
+    'main-footer main-footer'
+    
+
+    ;
+
+}
+
+header{
+    grid-area: main-header;  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    justify-content: center;
+
+}
+
+@keyframes tilt{
+
+    0%{
+        transform: scale(3)
+    }
+
+    100%{
+        transform: scale(1) 
+    }
+}
+
+.box-title{
+
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/346d8787115887.5dae6de65d2d7.jpg") ;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 300px;
+    animation-name: tilt;
+    animation-duration: 5s;
+    font-size: 50px;
+
+}
+
+
+
+
+@keyframes jinx{
+
+    0%{
+        transform: translate(0, -100px) scale(2);
+    }
+    50%{
+
+        transform: translate(-50px)
+    }
+
+    100% {
+        transform: translate(0) 
+        
+    }
+    
+
+}
+
+@keyframes vi{
+
+    0%{
+        transform: translate(100px) scale(2)
+    }
+
+    50%{
+
+        transform: translate(50px)
+    }
+
+    100% {
+        transform: translate(0) 
+    }
+    
+
+}
+
+
+.img1{
+    margin: 15px;
+    margin-top: 100px;
+    width: 300px;
+    float: right;
+    display: block;
+    animation-name: jinx;
+    animation-duration: 5s;
+    
+      
+}
+
+
+
+.img2{
+    margin: 10px;
+    width: 190px;
+    float: left;
+    display: block;
+    animation-name: vi;
+    animation-duration: 5s;
+      
+}
+
+main{
+
+    grid-area: main-content;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    justify-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+
+}
+
+
+aside{
+
+    grid-area: main-aside;
+    text-align: center;
+    color: white;
+    
+}
+
+aside h1{
+    text-align: center;
+    color: white;
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.video{
+    
+    margin: 50px;
+    object-fit: cover;
+}
+
+
+
+
+fieldset{
+    background-color: rgba(100, 148, 237, 0.521);
+    margin: 30px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+legend{
+    text-align: center;
+    color: white;
+    font-size: 1030pxpx ;
+    background-color: black;
+    border-radius: 30px;
+    padding: 6px 15px;
+}
+
+input{
+    font-size: 20px;
+    color: black;
+    transition: 1s;
+}
+
+input:hover{
+    transform: scale(1.5)
+}
+
+select{
+    font-size: 20px;
+    transition: 1s;
+}
+
+select:hover{
+    transform: scale(1.5)
+}
+
+.buttons{  
+  
+  text-align: center;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-in-out;
+
+}
+
+.invit:hover{
+    
+    transform: scale(1.5);
+}
+
+
+.reset:hover{
+
+    transform: scale(1.5);
+}
+
+.invit{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/346d8787115887.5dae6de65d2d7.jpg");
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    background-size: cover;
+
+}
+
+.reset{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/346d8787115887.5dae6de65d2d7.jpg");
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    background-size: cover;
+}
+
+footer{
+
+    grid-area: main-footer;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    background-color: rgba(64, 224, 208, 0.274);
+    font-size: 25px;
+
+}
+
+
+
+
+.incone{
+
+    position: absolute;
+    left: 40%;
+    transform: translate(50%, 50%);
+    transition: 1s;
+
+
+}
+
+.inst{
+
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    color: rgb(243, 84, 110);
+    background: #34495e;
+    margin: 0 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 50px;
+    text-decoration: none;
+
+
+}
+
+.play{
+
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    color: rgb(0, 255, 85);
+    background: #34495e;
+    margin: 0 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 50px;
+    text-decoration: none;
+
+}
+
+
+.inst:hover{
+    transform: scale(1.2) rotate(25deg);
+}
+
+.play:hover{
+
+    transform: scale(1.2) rotate(25deg);
+
+}
