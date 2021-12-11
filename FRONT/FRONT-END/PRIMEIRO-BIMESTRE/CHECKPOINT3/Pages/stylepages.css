@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-size: cover;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06cb28af-a15c-45d3-b1b6-fcbc1910e0c3/dbwk3sn-1ad1083a-5b15-4f77-af59-66dc07024a73.jpg/v1/fill/w_1024,h_1496,q_75,strp/back_card_yugioh_hd_by_yugiohoricabr_dbwk3sn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ5NiIsInBhdGgiOiJcL2ZcLzA2Y2IyOGFmLWExNWMtNDVkMy1iMWI2LWZjYmMxOTEwZTBjM1wvZGJ3azNzbi0xYWQxMDgzYS01YjE1LTRmNzctYWY1OS02NmRjMDcwMjRhNzMuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hzaBSJ4Hs23sjOCzVznIn1Qjgx2-c0BY__I1E7-rQKg");
+    background-attachment: fixed;
+    
+}
+  
+
+header ul {
+    margin-right: 40px;
+    
+}
+  
+header ul a {
+    color: rgba(201, 201, 201, 0.993);
+    font-size: 18px;
+    line-height: 50px;
+}
+  
+header a img {
+    width: 50px;
+    margin: 5px 32px 5px 20px;
+}
+  
+.bg-light {
+    --bs-bg-opacity: 0.8;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+  
+.modal-dialog {
+    width: 340px;
+}
+  
+.modal-content {
+    height: 495px;
+    background-image: url("https://feijoadasimulator.top/br/templates/1240t.png");
+}
+  
+.modal-content-magic {
+    height: 610px;
+    width: 420px;
+    background-image: url("image/cartaMagica.jpeg");
+}
+  
+.modal-title {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+  
+.modal-body {
+    margin-left: 30px;
+}
+  
+.custom-input-name {
+    margin-bottom: 20px;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: #b8a53a8a;
+}
+  
+.custom-input-name :hover {
+    width: 300px;
+    border: none;
+}
+  
+.btn-primary {
+    color: #fff;
+    background-color: #b8a53a8a;
+    border-color: #b8a53a;
+    margin: 0 20px 36px;
+}
+  
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ac8825;
+    border-color: #b8a53a8a;
+}
+  
+.btn-secondary {
+      color: #fff;
+    background-color: #b8a53a8a;
+    border-color: #b8a53a;
+    margin: 0 0 36px;
+}
+  
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #ac8825;
+    border-color: #b8a53a8a;
+}
+  
+.about-us {
+    margin: -5px 0 0 35px;
+    font-size: 26px;
+}
+  
+.modal-title-magic {
+    margin-top: 15px;
+    font-size: 22px;
+}
+  
+.magic-card {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 48px;
+}
+  
+.about-magic-card {
+    margin: 0 0 60px 25px;
+    font-size: 21px;
+}
+  
+
+
+main section{
+   display: flex;
+   margin: 100px;
+   align-items: center;
+}
+
+.carddeck{
+   width: 400px;
+    margin: 20px;
+}
+
+.detail{
+    width: 900px;
+}
+
+#more{
+    width: 400px;
+    font-size: 50px;
+}
+
+.but{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    
+    background-color: rgb(129, 129, 129);
+}
+
+.container-card {
+   
+    padding: 40px;
+}
+
+.nome-participantes {
+
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.text-content {
+
+    text-align: center;
+    padding: 20px;
+}
+
+.card-center {
+
+    text-align: center;
+}
+
+.card-right {
+
+    text-align: end;
+}
+
+
+
+@media (max-width: 720px) {
+
+   
+    main section{
+        display: block;
+        margin: 100px;
+        align-items: center;
+     }
+     
+    .carddeck{
+        width: 200px;
+         
+     }
+     
+    .detail{
+         width: 400px;
+     }
+
+    #more{
+        width: 300px;
+        font-size: 50px;
+    }
+
+}

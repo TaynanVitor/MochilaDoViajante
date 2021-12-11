@@ -1,0 +1,20 @@
+
+body{
+    background-color: black;
+}
+
+.carousel-image{
+    height: 300px;
+    object-fit: contain;
+    background-color: black;
+    transition: 1s;
+}
+
+.carousel-image:hover{
+    transform: scale(1.2);
+}
+
+.jinx h1{
+    text-align: center;
+    color: wheat;
+}

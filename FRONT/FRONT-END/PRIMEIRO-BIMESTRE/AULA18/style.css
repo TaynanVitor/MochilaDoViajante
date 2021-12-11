@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    width: 500px;
+}
+
+article{
+    background-color: black;
+    height: 400px;
+    width: 50%;
+}
+
+
