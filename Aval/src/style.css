@@ -1,0 +1,111 @@
+
+
+* {
+    margin: 20px 20px;
+    padding: 5;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Poppins', sans-serif;    
+    margin-bottom: 0px;
+    
+
+}
+
+.container_input{
+    text-align: center;
+    
+    
+}
+
+.container_name{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    
+}
+
+.Title{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+  
+}
+
+.cardPokemon{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+  
+}
+
+.imgPokemon{
+    color: white;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+h2{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    
+  
+}
+
+
+
+label{
+    font-size: 35px;
+    color: white;
+    gap: 20px;
+    margin-bottom: 20px;
+    
+}
+
+body {
+    background-color: #1E1E1E;  
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL63Q2OY_iNIHfkicoDqih4NLbmQ9lwK2orA&usqp=CAU");
+    background-size: cover;
+     
+}
+
+button {
+    background-color: rgb(47, 255, 109);
+    padding: 10px 40px;
+    margin: 90px 40px;
+    border-radius: 11px;
+    
+    
+
+    
+    
+}
+
+input,
+select {
+  width: 90%;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 1.2rem;
+  border-radius: 11px;
+  
+}
+
+.cards{
+    margin: 50px 50px;
+    background-color: rgb(25, 135, 155);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.pokeBall{
+    height:80px;
+    margin: 10px;
+    
+}
+
+
+
